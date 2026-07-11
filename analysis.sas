@@ -1,6 +1,3 @@
-%let bb=104;
-%let ee=109;
-
 proc sql noprint;
 	select name into : vars separated by " "
 	from dictionary.columns
