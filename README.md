@@ -8,7 +8,7 @@ The program performs the following steps:
 2. Applies propensity-score fine stratification using 50 strata and the average treatment effect estimand.
 3. Estimates propensity scores using logistic regression.
 4. Calculates unstabilized and stabilized inverse probability of treatment weights.
-5. Combines the cohort, fine-stratification weights, and IPTW variables into `final.weight`.
+5. Combines the cohort, fine-stratification weights variables into `final.weight`.
 6. Generates a baseline-characteristics table using the `%table1` macro.
 7. Calculates weighted event counts, person-years, and incidence rates per 100 person-years.
 8. Fits weighted Cox proportional hazards models for convulsions, epilepsy, and their composite outcome.
